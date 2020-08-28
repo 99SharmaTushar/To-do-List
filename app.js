@@ -1,6 +1,6 @@
 
 const express = require("express");
-const bodyParser = require("body-Parser");
+const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const date = require(__dirname+"/date");
 const _ = require("lodash");
