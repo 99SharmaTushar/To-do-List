@@ -1,0 +1,16 @@
+<%- include("header") %>
+
+<div class="box" id="heading">
+  <h1>Enter the name of the list!!</h1>
+</div>
+
+<div class="box" >
+
+<form class="item" action="/newList" method="post">
+      <input type="text" name="listName" placeholder="List Name"  autocomplete="off">
+      <button type="submit" name="button" class="createButton">▶</button>
+</form>
+
+</div>
+
+<%- include("footer") %>
